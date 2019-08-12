@@ -1,0 +1,90 @@
+.page-show{
+    display: block;
+}
+
+.page-hide{
+    display: none;
+}
+
+.display-ctn{
+    background: -webkit-linear-gradient(top, rgba(213,206,166,1) 0%,rgba(201,193,144,1) 40%,rgba(183,173,112,1) 100%); /* Chrome10-25,Safari5.1-6 */    margin: 2em 1em 0 1em;
+    height: 500px;
+    width: 85%;
+    border-radius: 15px;
+    padding: 50px;
+    padding-top: 20px;
+    box-shadow: 10px 15px;
+    margin: 30px 50px;
+}
+
+#title{
+    font-size: 60px;
+    font-family: 'Oswald', Arial;
+    text-align: center;
+}
+
+.text-style {
+    font-size: 18px;
+    font-family: 'Ubuntu', times;
+    font-weight: 100;
+}
+
+.text-indent{
+    text-indent: 40px;
+}
+
+#pro-pic-ctn{
+    width: 300px;
+    height: 325px;
+    float: right;
+    margin: 70px;
+    border-radius: 100%;
+}
+
+#profile-pic{
+    width: 300px;
+    height: 325px;
+    border-radius: 100%;
+    border: solid 20px; 
+}
+
+.btn-ctn{
+text-align: center;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(238,238,238,1)
+}
+
+/* second area */
+
+
+#grid-ctn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 350px;
+    margin: 35px;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-family: 'Oswald', times;
+    text-align: center;
+}
+
+.margin{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+li{
+    margin-top: 20px;
+}
+
+.btn{
+    text-align: center;
+}
+
