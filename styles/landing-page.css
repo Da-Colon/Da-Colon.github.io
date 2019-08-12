@@ -20,16 +20,16 @@ header{
 }
 
 #header1{
-    height: 80px;
+    height: 10%;
 }
 
 #header2{
-    height: 40px;
+    height: 5%;
 }
 
 #main-ctn{
     height: auto; 
-    margin: auto 8em;
+    margin: auto 8%;
 }
 
 /* Title */
@@ -107,16 +107,16 @@ header{
 /* Banner */
 #banner-ctn{
     
-    height: 300px;
-    width: 75%;
+    height: 50%;
+    width: 35%;
     justify-content: center;
     align-self: center;
-    margin-top: 150px;
+    margin-top: 15em;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #img-banner{
-    height: 300px;
+    height: 100%;
     width: 100%;
 }
 /* main-conten section*/
@@ -133,7 +133,7 @@ section{
 a.anchor{
     display: block;
     position: relative;
-    top: -130px;
+    top: -13em;
     visibility: hidden;
 }
 
@@ -150,15 +150,15 @@ a.anchor{
 .img-ctn{
     margin: 5px 20px 5px 5px;
     float: right;
-    width: 250px;
-    height: 175px;
+    width: 35%;
+    height: 25%;
     border: solid 2px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .p-img{
-    width: 250px;
-    height: 175px;
+    width: 100%;
+    height: 100%;
 }
 
 h3{
@@ -261,7 +261,4 @@ ul{
         padding:6px 20px;
         text-decoration:none;
         text-shadow:0px 1px 0px #e1e2ed;
-        
-    }
-  
-    
+}

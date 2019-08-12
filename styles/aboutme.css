@@ -8,13 +8,13 @@
 
 .display-ctn{
     background: -webkit-linear-gradient(top, rgba(213,206,166,1) 0%,rgba(201,193,144,1) 40%,rgba(183,173,112,1) 100%); /* Chrome10-25,Safari5.1-6 */    margin: 2em 1em 0 1em;
-    height: 500px;
+    height: 95%;
     width: 85%;
     border-radius: 15px;
     padding: 50px;
     padding-top: 20px;
     box-shadow: 10px 15px;
-    margin: 30px 50px;
+    margin: 1em 2em;
 }
 
 #title{
@@ -64,8 +64,8 @@ button{
 #grid-ctn{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 350px;
-    margin: 35px;
+    grid-template-rows: 2em 30em;
+    margin: 2.5em;
     margin-bottom: 20px;
 }
 
@@ -73,11 +73,11 @@ button{
     font-size: 24px;
     font-family: 'Oswald', times;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .margin{
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 1em;
 }
 
 li{
